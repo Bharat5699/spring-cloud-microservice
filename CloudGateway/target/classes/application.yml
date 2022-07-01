@@ -25,15 +25,11 @@ spring:
           args:
             name: PaymentService
             fallbackUri: forward:/fallback/payment 
-  
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone:  http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
+    config:
+      uri:
+      - http://localhost:8084
+
+
     
 management:
   endpoints:

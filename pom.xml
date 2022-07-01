@@ -20,6 +20,7 @@
    <module>ServiceRegistry</module>
    <module>CloudGateway</module>
    <module>HystrixDashboard</module>
+   <module>CloudConfigServer</module>
   </modules>
   <dependencies>
 
